@@ -1,0 +1,36 @@
+.weather-item {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 280px;
+  }
+  
+  .city {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-1,
+  .info-2 {
+    flex: 1;
+  }
+  
+  .info-1 p,
+  .info-2 p {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .info-1 p:last-child,
+  .info-2 p:last-child {
+    margin-top: 140px;
+  }
+ 
